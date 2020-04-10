@@ -50,3 +50,12 @@
 .cart-mess:hover .delete-btn {
     visibility: visible;
 }
+
+@media (max-width: 414px) {
+    .user-avatar {
+        width: 25%;
+    }
+    .block-info {
+        width: 75%;
+    }
+  }

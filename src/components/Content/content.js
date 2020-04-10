@@ -8,7 +8,7 @@ const Content = ({ messages, setMessages }) => {
   return (
     <div className="content">
       {messages.map((mess) => {
-        return <Cart key={mess.id} mess={mess} setMessages={setMessages}  />;
+        return <Cart key={mess.id} mess={mess} setMessages={setMessages} />;
       })}
     </div>
   );
