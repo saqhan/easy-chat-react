@@ -7,18 +7,17 @@ import Content from "../Content";
 import ItemAddForm from "../ItemAddForm";
 
 const App = (props) => {
-
   const database = {
     username: "intocode",
     darkTheme: false,
-  
+
     messages: [
       {
         id: 1,
         message: "Привет, как дела?",
         author: {
           name: "intocode",
-          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg",
         },
         time: "11:42",
       },
@@ -27,7 +26,7 @@ const App = (props) => {
         message: "Что больше нравится: React или пирожки?",
         author: {
           name: "adam",
-          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg",
         },
         time: "11:44",
       },
@@ -36,7 +35,7 @@ const App = (props) => {
         message: "Пирожки!",
         author: {
           name: "html_95",
-          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg",
         },
         time: "11:50",
       },
@@ -45,7 +44,7 @@ const App = (props) => {
         message: "Подскажите, как можно удалить JavaScript из мозга?",
         author: {
           name: "shovda",
-          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg",
         },
         time: "13:21",
       },
@@ -54,7 +53,7 @@ const App = (props) => {
         message: "Тоже хотел бы знать",
         author: {
           name: "intocode",
-          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg",
         },
         time: "13:22",
       },
@@ -63,7 +62,7 @@ const App = (props) => {
         message: "Никак :(",
         author: {
           name: "adam",
-          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg",
         },
         time: "13:23",
       },
@@ -72,7 +71,7 @@ const App = (props) => {
         message: "В интукод сложные задания. Больше к ним не пойду.",
         author: {
           name: "coronavirus",
-          avatar: "http://intocode.ru/d/react-chat/avatars/coronavirus.png"
+          avatar: "http://intocode.ru/d/react-chat/avatars/coronavirus.png",
         },
         time: "14:00",
       },
@@ -81,16 +80,16 @@ const App = (props) => {
         message: "А что еще делать? Карантин продлится до 2032г.",
         author: {
           name: "na_karantine",
-          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/no-avatar.jpg",
         },
         time: "14:04",
       },
       {
         id: 9,
-        message: "Лайкните последний пост на instagram.com/intocode",
+        message: "свЛайкните последний пост на instagram.com/intocode",
         author: {
           name: "intocode",
-          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg",
         },
         time: "15:10",
       },
@@ -99,7 +98,7 @@ const App = (props) => {
         message: "Отстань.",
         author: {
           name: "adam",
-          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/adam.jpg",
         },
         time: "15:12",
       },
@@ -108,11 +107,11 @@ const App = (props) => {
         message: ":(",
         author: {
           name: "intocode",
-          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg"
+          avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg",
         },
         time: "15:13",
-      }
-    ]
+      },
+    ],
   };
 
   const [messages, setMessages] = useState(database.messages);
@@ -130,9 +129,9 @@ const App = (props) => {
 
     time1 = addZero(getHours);
     time2 = addZero(getMinutes);
-    
+
     const id = messages.length + 1;
-    
+  
     const newArray = [
       ...messages,
       {

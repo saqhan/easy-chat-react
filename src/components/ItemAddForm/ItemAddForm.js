@@ -19,7 +19,7 @@ const ItemAddForm = ({ addMessage }) => {
   return (
     <div className="ItemAddForm">
       <form className="item-form" onSubmit={sendMess}>
-        <input
+        <input 
           className="form-input "
           ref={input}
           placeholder="Введите сообщение.."
