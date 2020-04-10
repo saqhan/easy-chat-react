@@ -138,7 +138,7 @@ const App = (props) => {
         id,
         message,
         author: {
-          name: "saqhan",
+          name: "Гость",
           avatar: "http://intocode.ru/d/react-chat/avatars/admin.jpg",
         },
         time: `${time1}:${time2}`,
