@@ -1,0 +1,52 @@
+.user-avatar {
+    width: 15%;
+}
+
+.user-avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.block-info {
+    width: 85%;
+}
+
+.user-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-name {
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+}
+
+.user-time {
+    color: #828282;
+    font-size: 14px;
+}
+
+.cart-mess {
+    margin-bottom: 20px;
+}
+
+.delete-btn {
+    visibility: hidden;
+    visibility: hidden;
+    color: lightgray;
+    border: none;
+    font-size: 12px;
+    background-color: inherit;
+}
+
+.delete-btn:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.cart-mess:hover .delete-btn {
+    visibility: visible;
+}
