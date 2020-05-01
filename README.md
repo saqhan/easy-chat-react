@@ -1,3 +1,3 @@
 # Мои работы
 
-[Чат](https://saqhan.github.io/chat/)
+[Перейти к просмотру](https://saqhan.github.io/chat/)
